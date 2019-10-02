@@ -1,1 +1,55 @@
-<p>regular-form works!</p>
+<h1>
+  Foosball app
+</h1>
+<form [formGroup]="form">
+  <div *ngFor="let playerId of players">
+    <div [formGroupName]="'player'+playerId">
+      <mat-form-field>
+        <input matInput
+               formControlName="name"
+               [placeholder]="'Name of player ' +playerId">
+      </mat-form-field>
+      <mat-radio-group
+        formControlName="team">
+        <div>
+          <mat-radio-button value="1">
+            Team 1
+          </mat-radio-button>
+        </div>
+        <div>
+          <mat-radio-button value="2">
+            Team 2
+          </mat-radio-button>
+        </div>
+      </mat-radio-group>
+    </div>
+  </div>
+  <div>
+    <button mat-raised-button
+            (click)="onFormSubmit()"
+            [disabled]="!form.valid"
+            color="primary">
+      Save match configuration
+    </button>
+  </div>
+</form>
+
+<div>
+  <p> Foosball match configuration</p>
+  <div>
+    <p>
+      Team 1
+    </p>
+    <p *ngFor="let player of getTeamPlayers(1)">
+      {{player.name}}
+    </p>
+  </div>
+  <div>
+    <p>
+      Team 2
+    </p>
+    <p *ngFor="let player of getTeamPlayers(2)">
+      {{player.name}}
+    </p>
+  </div>
+</div>
