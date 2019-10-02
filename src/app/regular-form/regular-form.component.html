@@ -26,30 +26,10 @@
   </div>
   <div>
     <button mat-raised-button
-            (click)="onFormSubmit()"
+            (click)="submit()"
             [disabled]="!form.valid"
             color="primary">
       Save match configuration
     </button>
   </div>
 </form>
-
-<div>
-  <p> Foosball match configuration</p>
-  <div>
-    <p>
-      Team 1
-    </p>
-    <p *ngFor="let player of getTeamPlayers(1)">
-      {{player.name}}
-    </p>
-  </div>
-  <div>
-    <p>
-      Team 2
-    </p>
-    <p *ngFor="let player of getTeamPlayers(2)">
-      {{player.name}}
-    </p>
-  </div>
-</div>

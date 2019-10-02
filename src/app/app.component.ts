@@ -6,5 +6,21 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'base-project-example';
+  public onFormSubmit(formValue) {
+    console.log('****');
+    console.log(formValue);
+    console.log('****');
+    const team1PlayersList: any[] = this.getTeamPlayers(formValue, 1);
+    const team2PlayersList: any[] = this.getTeamPlayers(formValue, 2);
+
+    if (team1PlayersList.length === 2 && team2PlayersList.length === 2) {
+      alert(`${team1PlayersList[0].name} & ${team1PlayersList[1].name} VS ${team2PlayersList[0].name} & ${team2PlayersList[1].name}`);
+    } else {
+      alert('Some of the teams have not at least 2 players');
+    }
+  }
+
+  private getTeamPlayers(formValue: any, team: number) {
+    return Object.values(formValue).filter((player) => player['team'] == team);
+  }
 }
