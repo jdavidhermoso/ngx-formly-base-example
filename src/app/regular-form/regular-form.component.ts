@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, EventEmitter, OnInit, Output } from '@angular/core';
 import { FormControl, FormGroup, Validators } from '@angular/forms';
 
 @Component({
@@ -7,6 +7,9 @@ import { FormControl, FormGroup, Validators } from '@angular/forms';
   styleUrls: ['./regular-form.component.scss']
 })
 export class RegularFormComponent implements OnInit {
+  @Output()
+  public onFormSubmit: EventEmitter<any> = new EventEmitter();
+
   public form: FormGroup;
   // A bit tricky, but useful for our example
   public players: number[] = [1, 2, 3, 4];
@@ -40,18 +43,9 @@ export class RegularFormComponent implements OnInit {
     });
   }
 
-  public onFormSubmit() {
-    const team1PlayersList: any[] = this.getTeamPlayers(1);
-    const team2PlayersList: any[] = this.getTeamPlayers(2);
-
-    if (team1PlayersList.length === 2 && team2PlayersList.length === 2) {
-      alert(`${team1PlayersList[0].name} & ${team1PlayersList[1].name} VS ${team2PlayersList[0].name} & ${team2PlayersList[1].name}`);
-    } else {
-      alert('Some of the teams have not at least 2 players');
-    }
+  public submit() {
+    this.onFormSubmit.emit(this.form.value);
   }
 
-  private getTeamPlayers(team: number) {
-    return Object.values(this.form.value).filter((player) => player['team'] == team);
-  }
+
 }
