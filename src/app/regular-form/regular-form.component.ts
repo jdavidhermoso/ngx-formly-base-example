@@ -43,9 +43,7 @@ export class RegularFormComponent implements OnInit {
     });
   }
 
-  public submit() {
+  public regularFormSubmit() {
     this.onFormSubmit.emit(this.form.value);
   }
-
-
 }
