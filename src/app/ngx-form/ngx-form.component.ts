@@ -23,7 +23,7 @@ export class NgxFormComponent implements OnInit {
 
   public submit() {
     if (this.form.valid) {
-      this.onFormSubmit.emit(this.model);
+      this.onFormSubmit.emit(this.form.value);
     }
   }
 }
