@@ -1,3 +1,4 @@
+import { HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import {
@@ -33,7 +34,8 @@ import { FormlyMaterialModule } from '@ngx-formly/material';
     MatRadioModule,
     MatButtonModule,
     FormlyModule.forRoot(),
-      FormlyMaterialModule
+    FormlyMaterialModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap:

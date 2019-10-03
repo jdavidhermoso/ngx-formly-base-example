@@ -1,7 +1,7 @@
 <h1>
   Foosball app
 </h1>
-<form [formGroup]="form">
+<form [formGroup]="form" (submit)="regularFormSubmit()">
   <div *ngFor="let playerId of players">
     <div [formGroupName]="'player'+playerId">
       <mat-form-field>
@@ -25,10 +25,10 @@
     </div>
   </div>
   <div>
-    <button mat-raised-button
-            (click)="submit()"
-            [disabled]="!form.valid"
-            color="primary">
+    <button
+      mat-raised-button
+      [disabled]="!form.valid"
+      color="primary">
       Save match configuration
     </button>
   </div>

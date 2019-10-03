@@ -7,9 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   public onFormSubmit(formValue) {
-    console.log('****');
-    console.log(formValue);
-    console.log('****');
     const team1PlayersList: any[] = this.getTeamPlayers(formValue, 1);
     const team2PlayersList: any[] = this.getTeamPlayers(formValue, 2);
 
