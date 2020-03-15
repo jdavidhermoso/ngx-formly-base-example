@@ -181,10 +181,10 @@
   dependencies:
     tslib "^1.9.0"
 
-"@angular/forms@~8.0.0":
-  version "8.0.3"
-  resolved "https://registry.yarnpkg.com/@angular/forms/-/forms-8.0.3.tgz#21282ba5616ee1641c2cbec9d34afd1c3482e44d"
-  integrity sha512-22s82QDRQ72K4vMYuNh3NAN+da9uanwoydnfKlp2rb9dZAb2QVX9NN6gSoMrkSSr2O9KTP6pWiw6A3/MW8sGRA==
+"@angular/forms@^8.2.8":
+  version "8.2.14"
+  resolved "https://registry.yarnpkg.com/@angular/forms/-/forms-8.2.14.tgz#7d357c346a3884881beb044c50ec4a09d3d7ee8e"
+  integrity sha512-zhyKL3CFIqcyHJ/TQF/h1OZztK611a6rxuPHCrt/5Sn1SuBTJJQ1pPTkOYIDy6IrCrtyANc8qB6P17Mao71DNQ==
   dependencies:
     tslib "^1.9.0"
 
@@ -318,6 +318,20 @@
     rxjs "6.4.0"
     tree-kill "1.2.1"
     webpack-sources "1.3.0"
+
+"@ngx-formly/core@^5.4.3":
+  version "5.5.14"
+  resolved "https://registry.yarnpkg.com/@ngx-formly/core/-/core-5.5.14.tgz#a62d4a8fb99f13955ea66521baa9a92225e9fd18"
+  integrity sha512-+QXYQvpl0ic5DCb+vJdVjcniLmCzNYYhiztO8pmr7MkzdZ6VOTd8Zj97jZyBkmvkqxdoGYolar2lA5pf+m4kkg==
+  dependencies:
+    tslib "^1.7.1"
+
+"@ngx-formly/material@^5.4.3":
+  version "5.5.14"
+  resolved "https://registry.yarnpkg.com/@ngx-formly/material/-/material-5.5.14.tgz#43b24f67acb6897f058246c4364543195eda8010"
+  integrity sha512-zat6pmY/LzQNJkFGqZNGaWxRT01SbWd3229WHHbf9gLCtSJXmmW0j14piFsoeGYsSQ4gtSYlIqzFcl8wdZMmqA==
+  dependencies:
+    tslib "^1.9.0"
 
 "@schematics/angular@8.0.6":
   version "8.0.6"
@@ -599,9 +613,9 @@ acorn-dynamic-import@^4.0.0:
   integrity sha512-d3OEjQV4ROpoflsnUA8HozoIR504TFxNivYEUi6uwz0IYhBkTDXGuWlNdMtybRt3nqVx/L6XqMt0FxkXuWKZhw==
 
 acorn@^6.0.5:
-  version "6.3.0"
-  resolved "https://registry.yarnpkg.com/acorn/-/acorn-6.3.0.tgz#0087509119ffa4fc0a0041d1e93a417e68cb856e"
-  integrity sha512-/czfa8BwS88b9gWQVhc8eknunSA2DoJpJyTQkhheIf5E48u1N0R4q/YxxsAeqRrmK9TQ/uYfgLDfZo91UlANIA==
+  version "6.4.1"
+  resolved "https://registry.yarnpkg.com/acorn/-/acorn-6.4.1.tgz#531e58ba3f51b9dacb9a6646ca4debf5b14ca474"
+  integrity sha512-ZVA9k326Nwrj3Cj9jlh3wGFutC2ZornPNARZwsNYqQYgN0EsV2d53w5RN/co65Ohn4sUAUtb1rSUAOD6XN9idA==
 
 adm-zip@^0.4.9:
   version "0.4.13"
