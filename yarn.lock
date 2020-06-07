@@ -181,10 +181,10 @@
   dependencies:
     tslib "^1.9.0"
 
-"@angular/forms@~8.0.0":
-  version "8.0.3"
-  resolved "https://registry.yarnpkg.com/@angular/forms/-/forms-8.0.3.tgz#21282ba5616ee1641c2cbec9d34afd1c3482e44d"
-  integrity sha512-22s82QDRQ72K4vMYuNh3NAN+da9uanwoydnfKlp2rb9dZAb2QVX9NN6gSoMrkSSr2O9KTP6pWiw6A3/MW8sGRA==
+"@angular/forms@^8.2.8":
+  version "8.2.14"
+  resolved "https://registry.yarnpkg.com/@angular/forms/-/forms-8.2.14.tgz#7d357c346a3884881beb044c50ec4a09d3d7ee8e"
+  integrity sha512-zhyKL3CFIqcyHJ/TQF/h1OZztK611a6rxuPHCrt/5Sn1SuBTJJQ1pPTkOYIDy6IrCrtyANc8qB6P17Mao71DNQ==
   dependencies:
     tslib "^1.9.0"
 
@@ -318,6 +318,20 @@
     rxjs "6.4.0"
     tree-kill "1.2.1"
     webpack-sources "1.3.0"
+
+"@ngx-formly/core@^5.4.3":
+  version "5.7.1"
+  resolved "https://registry.yarnpkg.com/@ngx-formly/core/-/core-5.7.1.tgz#eb368355434a8518261dc7a2418217233b4c3280"
+  integrity sha512-DuCNB7I/UIpHxpU5PoxQpvzL5L3dCpW5oPLkINrMJq+KnjmAsaP6DmnMFGi1R/lSoyTk0cE2uDgO9owtZbeDFg==
+  dependencies:
+    tslib "^1.7.1"
+
+"@ngx-formly/material@^5.4.3":
+  version "5.7.1"
+  resolved "https://registry.yarnpkg.com/@ngx-formly/material/-/material-5.7.1.tgz#12683b4ee9fef55035f3e6f34ca7680909943447"
+  integrity sha512-F+guaXqz+5y8Z14Gb8j1y5EBRmv9hIjW5/TNLtHtuyOocSNVhq3WP2daUeRRu/iiaP1F55RKZsOL0KN4CbsKgQ==
+  dependencies:
+    tslib "^1.9.0"
 
 "@schematics/angular@8.0.6":
   version "8.0.6"
@@ -6994,9 +7008,9 @@ websocket-driver@>=0.5.1:
     websocket-extensions ">=0.1.1"
 
 websocket-extensions@>=0.1.1:
-  version "0.1.3"
-  resolved "https://registry.yarnpkg.com/websocket-extensions/-/websocket-extensions-0.1.3.tgz#5d2ff22977003ec687a4b87073dfbbac146ccf29"
-  integrity sha512-nqHUnMXmBzT0w570r2JpJxfiSD1IzoI+HGVdd3aZ0yNi3ngvQ4jv1dtHt5VGxfI2yj5yqImPhOK4vmIh2xMbGg==
+  version "0.1.4"
+  resolved "https://registry.yarnpkg.com/websocket-extensions/-/websocket-extensions-0.1.4.tgz#7f8473bc839dfd87608adb95d7eb075211578a42"
+  integrity sha512-OqedPIGOfsDlo31UNwYbCFMSaO9m9G/0faIHj5/dZFDMFqPTcx6UwqyOy3COEaEOg/9VsGIpdqn62W5KhoKSpg==
 
 when@~3.6.x:
   version "3.6.4"
