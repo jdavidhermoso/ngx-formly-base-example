@@ -181,10 +181,10 @@
   dependencies:
     tslib "^1.9.0"
 
-"@angular/forms@~8.0.0":
-  version "8.0.3"
-  resolved "https://registry.yarnpkg.com/@angular/forms/-/forms-8.0.3.tgz#21282ba5616ee1641c2cbec9d34afd1c3482e44d"
-  integrity sha512-22s82QDRQ72K4vMYuNh3NAN+da9uanwoydnfKlp2rb9dZAb2QVX9NN6gSoMrkSSr2O9KTP6pWiw6A3/MW8sGRA==
+"@angular/forms@^8.2.8":
+  version "8.2.14"
+  resolved "https://registry.yarnpkg.com/@angular/forms/-/forms-8.2.14.tgz#7d357c346a3884881beb044c50ec4a09d3d7ee8e"
+  integrity sha512-zhyKL3CFIqcyHJ/TQF/h1OZztK611a6rxuPHCrt/5Sn1SuBTJJQ1pPTkOYIDy6IrCrtyANc8qB6P17Mao71DNQ==
   dependencies:
     tslib "^1.9.0"
 
@@ -318,6 +318,20 @@
     rxjs "6.4.0"
     tree-kill "1.2.1"
     webpack-sources "1.3.0"
+
+"@ngx-formly/core@^5.4.3":
+  version "5.10.19"
+  resolved "https://registry.yarnpkg.com/@ngx-formly/core/-/core-5.10.19.tgz#d788743b7a1a45f80d9e96706ac09a39614c09e5"
+  integrity sha512-vPUBMCGXfOov6h1WC8Yw3pIkOjxHixCmI4v+UJVOk0ThFg9XwAplG0TyE2Gkjp5KBNu4VVPxT6II6meSf0ivXQ==
+  dependencies:
+    tslib "^1.7.1"
+
+"@ngx-formly/material@^5.4.3":
+  version "5.10.19"
+  resolved "https://registry.yarnpkg.com/@ngx-formly/material/-/material-5.10.19.tgz#60c1ea1410a8f3eb868d76d912fd35de9fdb8864"
+  integrity sha512-7XJV3dRVHbuYG8gXYc7nojtm4kCBoN309urcgqIJu0IXEGLMrd+U9L0+tK2RzAq0FIA+yfwqSRWYkZ54fdT4nA==
+  dependencies:
+    tslib "^1.9.0"
 
 "@schematics/angular@8.0.6":
   version "8.0.6"
@@ -3024,9 +3038,9 @@ hmac-drbg@^1.0.0:
     minimalistic-crypto-utils "^1.0.1"
 
 hosted-git-info@^2.1.4, hosted-git-info@^2.6.0, hosted-git-info@^2.7.1:
-  version "2.8.4"
-  resolved "https://registry.yarnpkg.com/hosted-git-info/-/hosted-git-info-2.8.4.tgz#44119abaf4bc64692a16ace34700fed9c03e2546"
-  integrity sha512-pzXIvANXEFrc5oFFXRMkbLPQ2rXRoDERwDLyrcUxGhaZhgP54BBSl9Oheh7Vv0T090cszWBxPjkQQ5Sq1PbBRQ==
+  version "2.8.9"
+  resolved "https://registry.yarnpkg.com/hosted-git-info/-/hosted-git-info-2.8.9.tgz#dffc0bf9a21c02209090f2aa69429e1414daf3f9"
+  integrity sha512-mxIDAb9Lsm6DoOJ7xH+5+X4y1LU/4Hi50L9C5sIswK3JzULS4bwk1FvjdBgvYR4bzT4tuUQiC15FE2f5HbLvYw==
 
 hpack.js@^2.1.6:
   version "2.1.6"
