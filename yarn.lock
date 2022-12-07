@@ -181,10 +181,10 @@
   dependencies:
     tslib "^1.9.0"
 
-"@angular/forms@~8.0.0":
-  version "8.0.3"
-  resolved "https://registry.yarnpkg.com/@angular/forms/-/forms-8.0.3.tgz#21282ba5616ee1641c2cbec9d34afd1c3482e44d"
-  integrity sha512-22s82QDRQ72K4vMYuNh3NAN+da9uanwoydnfKlp2rb9dZAb2QVX9NN6gSoMrkSSr2O9KTP6pWiw6A3/MW8sGRA==
+"@angular/forms@^8.2.8":
+  version "8.2.14"
+  resolved "https://registry.yarnpkg.com/@angular/forms/-/forms-8.2.14.tgz#7d357c346a3884881beb044c50ec4a09d3d7ee8e"
+  integrity sha512-zhyKL3CFIqcyHJ/TQF/h1OZztK611a6rxuPHCrt/5Sn1SuBTJJQ1pPTkOYIDy6IrCrtyANc8qB6P17Mao71DNQ==
   dependencies:
     tslib "^1.9.0"
 
@@ -318,6 +318,20 @@
     rxjs "6.4.0"
     tree-kill "1.2.1"
     webpack-sources "1.3.0"
+
+"@ngx-formly/core@^5.4.3":
+  version "5.12.7"
+  resolved "https://registry.yarnpkg.com/@ngx-formly/core/-/core-5.12.7.tgz#8a904db35b4150bc7a7445b4c5a92c0f498a6123"
+  integrity sha512-WE4mVbIgWJ6zVf6WdQTUjQ17th/iZTW5pYlF43JdWxhwzmY6IX/NA2Qg7N4gtdlV3+Z+iSytcocBVx8G4kukZA==
+  dependencies:
+    tslib "^1.7.1"
+
+"@ngx-formly/material@^5.4.3":
+  version "5.12.7"
+  resolved "https://registry.yarnpkg.com/@ngx-formly/material/-/material-5.12.7.tgz#f0fec46ca19dbd7bbef8b9411d958b9bc605d192"
+  integrity sha512-oqJAtREE/jLMTxf3C9R2fy/oUBeQHKaPaQ1GgihZVUS6uFvzDgSJFNWYu5GOWGqoKL2IHNJ3Y1/Uw6gYRs8mTg==
+  dependencies:
+    tslib "^1.9.0"
 
 "@schematics/angular@8.0.6":
   version "8.0.6"
@@ -5221,9 +5235,9 @@ qs@6.7.0:
   integrity sha512-VCdBRNFTX1fyE7Nb6FYoURo/SPe62QCaAyzJvUjwRaIsc+NePBEniHlvxFmmX56+HZphIGtV0XeCirBtpDrTyQ==
 
 qs@~6.5.2:
-  version "6.5.2"
-  resolved "https://registry.yarnpkg.com/qs/-/qs-6.5.2.tgz#cb3ae806e8740444584ef154ce8ee98d403f3e36"
-  integrity sha512-N5ZAX4/LxJmF+7wN74pUD6qAh9/wnvdQcjq9TZjevvXzSUo7bfmw91saqMjzGS2xq91/odN2dW/WOl7qQHNDGA==
+  version "6.5.3"
+  resolved "https://registry.yarnpkg.com/qs/-/qs-6.5.3.tgz#3aeeffc91967ef6e35c0e488ef46fb296ab76aad"
+  integrity sha512-qxXIEh4pCGfHICj1mAJQ2/2XVZkjCDTcEgfoSQxc/fYivUZxTkk7L3bDBJSoNrEzXI17oUO5Dp07ktqE5KzczA==
 
 query-string@^5.0.1:
   version "5.1.1"
